@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  datasource:
+    username: sa
+    password: welcome
+    url: jdbc:h2:mem:orders_db
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true  
+   
+    #yaml is a type of format   yet another markup language 
